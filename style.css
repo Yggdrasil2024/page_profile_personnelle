@@ -1,0 +1,132 @@
+:root {
+  --bg: #121417;
+  --text: #e8eaed;
+  --accent: #7c9dff;
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "inter", sans-serif;
+  background-color: var(--bg);
+}
+
+h1,
+h2,
+dt,
+dd,
+li,
+input,
+label,
+p {
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent);
+  font-style: italic;
+}
+
+h1,
+h2,
+dt {
+  font-family: "space grotesk", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+header,
+main,
+footer {
+  max-width: 500px;
+  min-width: 355px;
+}
+
+header img {
+  width: 220px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+header,
+.my_skills,
+.my_cursus,
+.social_links,
+footer {
+  padding: 16px;
+  margin: 24px;
+}
+
+header,
+.my_skills,
+.my_cursus,
+.social_links,
+.contacts {
+  border: 1px solid var(--accent);
+  border-radius: 16px;
+}
+
+.me {
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.my_skills ul li {
+  transform: translateX(16px);
+}
+
+.my_cursus dl {
+  margin: 8px 0;
+}
+
+.my_cursus dt {
+  margin: 8px 0;
+  font-weight: 900;
+  color: var(--accent);
+}
+
+.contacts {
+  border-top: 0;
+  border-left: 0;
+}
+
+.contacts form > h2 {
+  margin-bottom: 16px;
+}
+
+.contacts [for] {
+  color: var(--accent);
+  font-style: italic;
+}
+
+input {
+    margin-bottom: 8px;
+}
+
+[type="submit"] {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    background-color: var(--accent);
+    font-weight: 800;
+    border-radius: 8px;
+}
+
